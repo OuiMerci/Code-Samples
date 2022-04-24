@@ -1,0 +1,15 @@
+Programming Test 1
+
+This project was made during a weekend for a programming test.
+As I remember, the idea was:
+- The player can click on the plane to place points and draw polygons
+- 2 segments cannot intersect
+- When a Polygon is complete, the player can click inside to place a building
+- Holding the click will increase the size a building
+- The attack input will decrease a building's size over time
+
+This small project was mostly interesting for the geometry challenges it brought:
+- Orientation of angles
+- Checking intersections of two segments
+- Checking if a point is inside a polygon
+- ...

@@ -1,0 +1,29 @@
+"MGP Revival"
+
+This project is a 2D platformer with these gameplay features:
+
+Artefact
+- The character can throw a staff (artefact), then teleport to it or recall it to her hand.
+- The artefact can be "magnetized" so it sticks to compatible platforms
+- When magnetized, the player can teleport to the artefact and hang to it
+- A Joint2D component also allows balancing
+- Standing on a moving platform will also move the player
+- This also works when hanging from the artefact while it is magnetized to a moving platform
+- The artefact can also be "glued" to some plaforms
+- The "glued" state is similar to the "magnetized" state, but the artefact cannot be recalled to the character's hand
+
+Fighting system
+- The player can enter a series of inputs to start an attack combo
+- The various combo are composed by a series of HitInfo (scriptable objects)
+- The HitInfo objects contain information about the related input, animation, damage, sound effet, combo timers...
+- The inputs are base on the combination of a stick direction and an attack button
+ 
+
+Song Gameplay
+- The song gameplay can be considered as a special attack
+- The player hold a button to expend a collider, when the collider hits a vulnerable enemy, the song gameplay starts.
+- When starting, the song gameplay will teleport then reposition the player and the affected enemy, the camera zooms in
+- A rythm game starts, the sequence of inputs depends on the enemy
+
+Please note that this project was mostly created for fun and practice, that is why you will see a various tests, commented blocks of code and some debatable implementation choices.
+In a professional environment the main benefit would be the ability to consult with programmers and gather their opinion on the best implementation for sensitive features.
